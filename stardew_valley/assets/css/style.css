@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+body{
+    margin: 20px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -17,7 +21,7 @@
 }
 #menu li{
     display: inline;
-    padding: 5px;
+    padding-right: 5px;
 }
 
 #menu a{
@@ -51,3 +55,13 @@
 
 
 /*Pagina Personagens - usar a div para deixar o personagem ao lado da foto*/
+.container_personagem{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.texto_personagem{
+    text-align: justify;
+    padding-right: 20px;
+}
