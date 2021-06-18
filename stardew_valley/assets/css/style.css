@@ -16,8 +16,11 @@ body{
     align-items: center;
 }
 
+/*Como fazer o menu para de descer a pg*/
 #menu {
     text-align: left;
+    width: 100%;
+    height: 100%;
 }
 #menu li{
     display: inline;
@@ -27,11 +30,12 @@ body{
 #menu a{
     text-decoration: none;
     color: black;
+    transition-property: font-size;
 }
 
 #menu li a:hover{
     color: gray;
-    transform: scale(0.9);
+    font-size: 20px;
 }
 
 .bottom {
