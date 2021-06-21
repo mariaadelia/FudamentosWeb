@@ -8,7 +8,6 @@
 
 body{
     margin: 20px;
-    /*background-image: url("file:///Users/mariaadelia/Desktop/Programa%C3%A7%C3%A3o/Generation/HTML_CSS_JAVASCRIPT/Generation/CODIGOS/FudamentosWeb/stardew_valley/assets/img/background.jpeg");*/
 }
 
 .container{
@@ -74,15 +73,10 @@ body{
 
 /*Banner*/
 /*#banner{
-    background-image: url('./assets/img/banner_std.jpg');
+    background-image: url(../img/banner_std.jpg);
     background-size: cover;
     background-position: 0 55%;
     position: relative;
-    margin-top: 100px;
+    width: auto;
+    height: auto;
 }*/
-
-.banner{
-    background: url(assets/img/stardew.jpg);
-    width: 500px;
-    height: 500px;
-}
