@@ -8,14 +8,14 @@
 
 body{
     margin: 20px;
-    /* Não consigo usar o link curto para isso
-    background-image: url("file:///Users/mariaadelia/Desktop/Programa%C3%A7%C3%A3o/Generation/HTML_CSS_JAVASCRIPT/Generation/CODIGOS/FudamentosWeb/stardew_valley/assets/img/background.jpeg")*/;
+    /*background-image: url("file:///Users/mariaadelia/Desktop/Programa%C3%A7%C3%A3o/Generation/HTML_CSS_JAVASCRIPT/Generation/CODIGOS/FudamentosWeb/stardew_valley/assets/img/background.jpeg");*/
 }
 
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 100px;
 }
 
 /*Como fazer o menu para de descer a pg*/
@@ -47,8 +47,10 @@ body{
 
 
 
-/*Pagina Informações*/
-
+/*Pagina Informações - fazer a margin da pg de infos margin: 100px;*/
+.container_infos{
+    margin: 100px;
+}
 
 
 
@@ -62,9 +64,25 @@ body{
     display: flex;
     flex-direction:row;
     align-items: center;
+    margin: 100px;
 }
 
 .texto_personagem{
     text-align: justify;
     padding-right: 20px;
+}
+
+/*Banner*/
+/*#banner{
+    background-image: url('./assets/img/banner_std.jpg');
+    background-size: cover;
+    background-position: 0 55%;
+    position: relative;
+    margin-top: 100px;
+}*/
+
+.banner{
+    background: url(assets/img/stardew.jpg);
+    width: 500px;
+    height: 500px;
 }
