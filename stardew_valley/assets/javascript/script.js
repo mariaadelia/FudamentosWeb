@@ -3,6 +3,11 @@ let email = document.querySelector('#email')
 let assunto = document.querySelector('#assunto')
 let imagem1 = document.querySelector('#img1')
 let imagem2 = document.querySelector('#img2')
+let imagem3 = document.querySelector('#img3')
+let imagem4 = document.querySelector('#img4')
+let imagem5 = document.querySelector('#img5')
+let imagem6 = document.querySelector('#img6')
+let imagem7 = document.querySelector('#img7')
 /* Variaveis para validação */
 let nomeOk = false
 let emailOk = false
@@ -67,6 +72,7 @@ function enviarFormulario(){
     }
 }
 
+//Zomm das imagens
 function zoomImg1(){
     imagem1.style.width='300px'
     imagem1.style.height='300px'
@@ -85,4 +91,54 @@ function zoomImg2(){
 function zoomOutImg2(){
     imagem2.style.width='192px'
     imagem2.style.height='192px'
+}
+
+function zoomImg3(){
+    imagem3.style.width='300px'
+    imagem3.style.height='300px'
+}
+
+function zoomOutImg3(){
+    imagem3.style.width='192px'
+    imagem3.style.height='192px'
+}
+
+function zoomImg4(){
+    imagem4.style.width='300px'
+    imagem4.style.height='300px'
+}
+
+function zoomOutImg4(){
+    imagem4.style.width='192px'
+    imagem4.style.height='192px'
+}
+
+function zoomImg5(){
+    imagem5.style.width='300px'
+    imagem5.style.height='300px'
+}
+
+function zoomOutImg5(){
+    imagem5.style.width='192px'
+    imagem5.style.height='192px'
+}
+
+function zoomImg6(){
+    imagem6.style.width='300px'
+    imagem6.style.height='300px'
+}
+
+function zoomOutImg6(){
+    imagem6.style.width='192px'
+    imagem6.style.height='192px'
+}
+
+function zoomImg7(){
+    imagem7.style.width='300px'
+    imagem7.style.height='300px'
+}
+
+function zoomOutImg7(){
+    imagem7.style.width='192px'
+    imagem7.style.height='192px'
 }
