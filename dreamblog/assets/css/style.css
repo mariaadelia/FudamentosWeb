@@ -1,3 +1,8 @@
+@font-face {
+    font-family: sukhumivt;
+    src: url(../fontes/SukhumvitSet-Light.ttf);
+}
+
 
 #footer{
     color: #ffffff;
@@ -11,4 +16,11 @@
 
 #footer a:hover{
     color: aqua;
+}
+.tituloh3{
+    text-align: center;
+}
+/*Fonte especial*/
+.ftespecial{
+    font-family: sukhumivt;
 }
